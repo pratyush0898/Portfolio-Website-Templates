@@ -43,6 +43,7 @@ const Site = [
     {
         "name": "name of Portfolio (Of whose portfolio is that) important",
         "screenshot": Image, // Screenshot of the portfolio
+        "url": "https://example.com" (important), // URL of Live site
         "description": "(optional)" // Short description of the portfolio (optional)
     },
 ];
