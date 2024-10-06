@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # Portfolio Website Templates
 
 Welcome to **Portfolio Website Templates**, a single-page multitasking website that showcases a variety of portfolio websites. This project is perfect for developers and clients seeking design inspiration.
