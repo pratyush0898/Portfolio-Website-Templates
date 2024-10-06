@@ -1,0 +1,78 @@
+.card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    background: transparent;
+    color: #fff;
+    height: 222px;
+    transition: all 333ms ease-in-out;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 10px;
+    margin-left: 74%;
+    transition: all 333ms ease-in-out;
+}
+
+.save-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: all 333ms ease-in-out;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2),
+        -4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.download-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: all 333ms ease-in-out;
+}
+
+.card-image {
+    display: block;
+    height: 170px;
+    width: auto;
+    transition: all 333ms ease-in-out;
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    transition: all 333ms ease-in-out;
+}
+
+.card .hover {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 333ms ease-in-out, visibility 1111ms ease-in-out;
+}
+
+.card:hover .hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .text p {
+    color: #001;
+    margin-bottom: 0;
+    transition: all 333ms ease-in-out;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-height: 80px;
+    transition: max-height 333ms ease-in-out;
+}
