@@ -1,3 +1,4 @@
+import Adham from '../assets/Adham.png';
 import Alex from '../assets/Alex.png';
 import Anton from '../assets/Anton.png';
 import Blendv1 from '../assets/Blend v1.png';
@@ -10,6 +11,7 @@ import Fergus from '../assets/Fergus.png';
 import Joseph from '../assets/Joseph.png';
 import Mark from '../assets/Mark.png';
 import Marphy from '../assets/Marphy.png';
+import Matthew from '../assets/Matthew.png'
 import Pratyush from '../assets/Pratyush.png';
 import Roman from '../assets/Roman.png';
 import Sarah from '../assets/Sarah.png';
@@ -20,6 +22,11 @@ import Vonix from '../assets/Vonix.png';
 const Portfolios = [Alex, Anton, Blendv1, Blendv2, Carolina, Dillion, Dylan, Factor, Fergus, Joseph, Mark, Marphy, Pratyush, Roman, Sarah, Taylor, Thunder, Vonix]
 
 const Site = [
+    {
+        "name": "Adham",
+        "screenshot": Adham,
+        "url": "https://www.adhamdannaway.com/"
+    },
     {
         "name": "Alex",
         "screenshot": Alex,
@@ -81,6 +88,11 @@ const Site = [
         "url": "https://portfolio-website--murphy.webflow.io/"
     },
     {
+        "name": "Matthew",
+        "screenshot": Matthew,
+        "url": "https://mattfarley.ca/"
+    },
+    {
         "name": "Pratyush",
         "screenshot": Pratyush,
         "url": "https://nvmPratyush.netlify.app"
@@ -98,17 +110,17 @@ const Site = [
     {
         "name": "Taylor",
         "screenshot": Taylor,
-        "url": "https://ceefa-template.webflow.io/"
+        "url": "https://taylorfolio.webflow.io/"
     },
     {
         "name": "Thunder",
         "screenshot": Thunder,
-        "url": "https://ceefa-template.webflow.io/"
+        "url": "https://thunder-portfolio-website.webflow.io/"
     },
     {
         "name": "Vonix",
         "screenshot": Vonix,
-        "url": "https://ceefa-template.webflow.io/"
+        "url": "https:/vonixwebflow.io/"
     }
 ]
 
